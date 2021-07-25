@@ -26,7 +26,7 @@ It has been estimated by Nilson report that by 2020 the banking frauds would acc
 In the banking industry, credit card fraud detection using machine learning is not just a trend but a necessity for them to put proactive monitoring and fraud prevention mechanisms in place. Machine learning is helping these institutions to reduce time-consuming manual reviews, costly chargebacks and fees, and denials of legitimate transactions.
 
 ## Algorithms
-I have used three classification algorithms namely Logistic Regression CV, Random Forest Classifier and XGBoost Classifier. I have trained the classifier using the original dataset, dataset after implying UnderSampling and a dataset obtained after performing Synthetic Minority Over-Sampling Technique (SMOTE) on the original dataset. I have split the data into training and test set at a ratio of 70:30.
+I have used three classification algorithms namely Logistic Regression, Random Forest Classifier and XGBoost Classifier. I have trained the classifier using the original dataset, dataset after implying UnderSampling and a dataset obtained after performing Synthetic Minority Over-Sampling Technique (SMOTE) on the original dataset. I have split the data into training and test set at a ratio of 70:30.
 
 ## Metrics Used to Evaluate Classifier Performance
 I have used F1 Score, Recall, Precision, Confusion Matrix and Average ROC_AUC score as metrics to evaluate the classifiers as they give a better indication of the model compared to accuracy.
